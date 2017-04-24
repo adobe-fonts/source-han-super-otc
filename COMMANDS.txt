@@ -1,29 +1,29 @@
-### Super OTC
+### Source Han Super OTC
 
 ## Source Han Sans
 
 # ExtraLight Light Normal Regular Medium Bold Heavy
 
-sfntedit -x CFF=CFF.$dir SourceHanSans-$dir.otf
-sfntedit -a CFF=CFF.$dir SourceHanSansK-$dir.otf
-sfntedit -a CFF=CFF.$dir SourceHanSansSC-$dir.otf
-sfntedit -a CFF=CFF.$dir SourceHanSansTC-$dir.otf
+sfntedit -d DSIG -x CFF=CFF.$dir SourceHanSans-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir SourceHanSansK-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir SourceHanSansSC-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir SourceHanSansTC-$dir.otf
 
 # Regular Bold
 
-sfntedit -a CFF=CFF.$dir SourceHanSansHW-$dir.otf
-sfntedit -a CFF=CFF.$dir SourceHanSansHWK-$dir.otf
-sfntedit -a CFF=CFF.$dir SourceHanSansHWSC-$dir.otf
-sfntedit -a CFF=CFF.$dir SourceHanSansHWTC-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir SourceHanSansHW-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir SourceHanSansHWK-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir SourceHanSansHWSC-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir SourceHanSansHWTC-$dir.otf
 
 ## Source Han Serif
 
 # ExtraLight Light Regular Medium SemiBold Bold Heavy
 
-sfntedit -x CFF=CFF.$dir SourceHanSerif-$dir.otf
-sfntedit -a CFF=CFF.$dir SourceHanSerifK-$dir.otf
-sfntedit -a CFF=CFF.$dir SourceHanSerifSC-$dir.otf
-sfntedit -a CFF=CFF.$dir SourceHanSerifTC-$dir.otf
+sfntedit -d DSIG -x CFF=CFF.$dir SourceHanSerif-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir SourceHanSerifK-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir SourceHanSerifSC-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir SourceHanSerifTC-$dir.otf
 
 ## Source Han Code JP
 
@@ -33,3 +33,72 @@ sfntedit -x CFF=CFF.$dir SourceHanCodeJP-$dir.otf
 sfntedit -a CFF=CFF.$dir SourceHanCodeJP-${dir}It.otf
 
 otf2otc -o SourceHan.ttc SourceHanSans-ExtraLight.otf SourceHanSansK-ExtraLight.otf SourceHanSansSC-ExtraLight.otf SourceHanSansTC-ExtraLight.otf SourceHanSans-Light.otf SourceHanSansK-Light.otf SourceHanSansSC-Light.otf SourceHanSansTC-Light.otf SourceHanSans-Normal.otf SourceHanSansK-Normal.otf SourceHanSansSC-Normal.otf SourceHanSansTC-Normal.otf SourceHanSans-Regular.otf SourceHanSansK-Regular.otf SourceHanSansSC-Regular.otf SourceHanSansTC-Regular.otf SourceHanSansHW-Regular.otf SourceHanSansHWK-Regular.otf SourceHanSansHWSC-Regular.otf SourceHanSansHWTC-Regular.otf SourceHanSans-Medium.otf SourceHanSansK-Medium.otf SourceHanSansSC-Medium.otf SourceHanSansTC-Medium.otf SourceHanSans-Bold.otf SourceHanSansK-Bold.otf SourceHanSansSC-Bold.otf SourceHanSansTC-Bold.otf SourceHanSansHW-Bold.otf SourceHanSansHWK-Bold.otf SourceHanSansHWSC-Bold.otf SourceHanSansHWTC-Bold.otf SourceHanSans-Heavy.otf SourceHanSansK-Heavy.otf SourceHanSansSC-Heavy.otf SourceHanSansTC-Heavy.otf SourceHanSerif-ExtraLight.otf SourceHanSerifK-ExtraLight.otf SourceHanSerifSC-ExtraLight.otf SourceHanSerifTC-ExtraLight.otf SourceHanSerif-Light.otf SourceHanSerifK-Light.otf SourceHanSerifSC-Light.otf SourceHanSerifTC-Light.otf SourceHanSerif-Regular.otf SourceHanSerifK-Regular.otf SourceHanSerifSC-Regular.otf SourceHanSerifTC-Regular.otf SourceHanSerif-Medium.otf SourceHanSerifK-Medium.otf SourceHanSerifSC-Medium.otf SourceHanSerifTC-Medium.otf SourceHanSerif-SemiBold.otf SourceHanSerifK-SemiBold.otf SourceHanSerifSC-SemiBold.otf SourceHanSerifTC-SemiBold.otf SourceHanSerif-Bold.otf SourceHanSerifK-Bold.otf SourceHanSerifSC-Bold.otf SourceHanSerifTC-Bold.otf SourceHanSerif-Heavy.otf SourceHanSerifK-Heavy.otf SourceHanSerifSC-Heavy.otf SourceHanSerifTC-Heavy.otf SourceHanCodeJP-ExtraLight.otf SourceHanCodeJP-ExtraLightIt.otf SourceHanCodeJP-Light.otf SourceHanCodeJP-LightIt.otf SourceHanCodeJP-Normal.otf SourceHanCodeJP-NormalIt.otf SourceHanCodeJP-Regular.otf SourceHanCodeJP-RegularIt.otf SourceHanCodeJP-Medium.otf SourceHanCodeJP-MediumIt.otf SourceHanCodeJP-Bold.otf SourceHanCodeJP-BoldIt.otf SourceHanCodeJP-Heavy.otf SourceHanCodeJP-HeavyIt.otf
+
+### Noto CJK Super OTC
+
+## Noto Sans CJK
+
+# ExtraLight Light Normal Regular Medium Bold Heavy
+
+sfntedit -x CFF=CFF.$dir SourceHanSans-$dir.otf
+
+mv CFF.ExtraLight CFF.Thin
+mv CFF.Normal CFF.DemiLight
+mv CFF.Heavy CFF.Black
+
+# Thin Light DemiLight Regular Medium Bold Black
+
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSansCJKjp-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSansCJKkr-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSansCJKsc-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSansCJKtc-$dir.otf
+
+# Regular & Bold
+
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSansMonoCJKjp-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSansMonoCJKkr-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSansMonoCJKsc-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSansMonoCJKtc-$dir.otf
+
+## Noto Serif CJK
+
+# ExtraLight Light Regular Medium SemiBold Bold Heavy
+
+sfntedit -x CFF=CFF.$dir SourceHanSerif-$dir.otf
+
+mv CFF.Heavy CFF.Black
+
+# ExtraLight Light Regular Medium SemiBold Bold Black
+
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSerifCJKjp-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSerifCJKkr-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSerifCJKsc-$dir.otf
+sfntedit -d DSIG -a CFF=CFF.$dir NotoSerifCJKtc-$dir.otf
+
+otf2otc -o NotoCJK.ttc NotoSansCJKjp-Thin.otf NotoSansCJKkr-Thin.otf NotoSansCJKsc-Thin.otf NotoSansCJKtc-Thin.otf NotoSansCJKjp-Light.otf NotoSansCJKkr-Light.otf NotoSansCJKsc-Light.otf NotoSansCJKtc-Light.otf NotoSansCJKjp-DemiLight.otf NotoSansCJKkr-DemiLight.otf NotoSansCJKsc-DemiLight.otf NotoSansCJKtc-DemiLight.otf NotoSansCJKjp-Regular.otf NotoSansCJKkr-Regular.otf NotoSansCJKsc-Regular.otf NotoSansCJKtc-Regular.otf NotoSansMonoCJKjp-Regular.otf NotoSansMonoCJKkr-Regular.otf NotoSansMonoCJKsc-Regular.otf NotoSansMonoCJKtc-Regular.otf NotoSansCJKjp-Medium.otf NotoSansCJKkr-Medium.otf NotoSansCJKsc-Medium.otf NotoSansCJKtc-Medium.otf NotoSansCJKjp-Bold.otf NotoSansCJKkr-Bold.otf NotoSansCJKsc-Bold.otf NotoSansCJKtc-Bold.otf NotoSansMonoCJKjp-Bold.otf NotoSansMonoCJKkr-Bold.otf NotoSansMonoCJKsc-Bold.otf NotoSansMonoCJKtc-Bold.otf NotoSansCJKjp-Black.otf NotoSansCJKkr-Black.otf NotoSansCJKsc-Black.otf NotoSansCJKtc-Black.otf NotoSerifCJKjp-ExtraLight.otf NotoSerifCJKkr-ExtraLight.otf NotoSerifCJKsc-ExtraLight.otf NotoSerifCJKtc-ExtraLight.otf NotoSerifCJKjp-Light.otf NotoSerifCJKkr-Light.otf NotoSerifCJKsc-Light.otf NotoSerifCJKtc-Light.otf NotoSerifCJKjp-Regular.otf NotoSerifCJKkr-Regular.otf NotoSerifCJKsc-Regular.otf NotoSerifCJKtc-Regular.otf NotoSerifCJKjp-Medium.otf NotoSerifCJKkr-Medium.otf NotoSerifCJKsc-Medium.otf NotoSerifCJKtc-Medium.otf NotoSerifCJKjp-SemiBold.otf NotoSerifCJKkr-SemiBold.otf NotoSerifCJKsc-SemiBold.otf NotoSerifCJKtc-SemiBold.otf NotoSerifCJKjp-Bold.otf NotoSerifCJKkr-Bold.otf NotoSerifCJKsc-Bold.otf NotoSerifCJKtc-Bold.otf NotoSerifCJKjp-Black.otf NotoSerifCJKkr-Black.otf NotoSerifCJKsc-Black.otf NotoSerifCJKtc-Black.otf
+
+### Source Han + Noto CJK Super OTC
+
+# NOTE: The section assumes that you have performed all of the pre-
+# processing steps in the previous sections.
+
+## Noto Serif CJK
+
+# Perform the following pre-processing steps to force the 'cmap'
+# tables to be shared with those of Source Han Serif:
+
+sfntedit -x cmap=cmap.jp SourceHanSerif-ExtraLight.otf
+sfntedit -x cmap=cmap.kr SourceHanSerifK-ExtraLight.otf
+sfntedit -x cmap=cmap.sc SourceHanSerifSC-ExtraLight.otf
+sfntedit -x cmap=cmap.tc SourceHanSerifTC-ExtraLight.otf
+
+# ExtraLight Light Regular Medium SemiBold Bold Black
+
+sfntedit -a cmap=cmap.jp NotoSerifCJKjp-$dir.otf
+sfntedit -a cmap=cmap.kr NotoSerifCJKkr-$dir.otf
+sfntedit -a cmap=cmap.sc NotoSerifCJKsc-$dir.otf
+sfntedit -a cmap=cmap.tc NotoSerifCJKtc-$dir.otf
+
+otf2otc -o SourceHanNotoCJK.ttc SourceHanSans-ExtraLight.otf SourceHanSansK-ExtraLight.otf SourceHanSansSC-ExtraLight.otf SourceHanSansTC-ExtraLight.otf SourceHanSans-Light.otf SourceHanSansK-Light.otf SourceHanSansSC-Light.otf SourceHanSansTC-Light.otf SourceHanSans-Normal.otf SourceHanSansK-Normal.otf SourceHanSansSC-Normal.otf SourceHanSansTC-Normal.otf SourceHanSans-Regular.otf SourceHanSansK-Regular.otf SourceHanSansSC-Regular.otf SourceHanSansTC-Regular.otf SourceHanSansHW-Regular.otf SourceHanSansHWK-Regular.otf SourceHanSansHWSC-Regular.otf SourceHanSansHWTC-Regular.otf SourceHanSans-Medium.otf SourceHanSansK-Medium.otf SourceHanSansSC-Medium.otf SourceHanSansTC-Medium.otf SourceHanSans-Bold.otf SourceHanSansK-Bold.otf SourceHanSansSC-Bold.otf SourceHanSansTC-Bold.otf SourceHanSansHW-Bold.otf SourceHanSansHWK-Bold.otf SourceHanSansHWSC-Bold.otf SourceHanSansHWTC-Bold.otf SourceHanSans-Heavy.otf SourceHanSansK-Heavy.otf SourceHanSansSC-Heavy.otf SourceHanSansTC-Heavy.otf SourceHanSerif-ExtraLight.otf SourceHanSerifK-ExtraLight.otf SourceHanSerifSC-ExtraLight.otf SourceHanSerifTC-ExtraLight.otf SourceHanSerif-Light.otf SourceHanSerifK-Light.otf SourceHanSerifSC-Light.otf SourceHanSerifTC-Light.otf SourceHanSerif-Regular.otf SourceHanSerifK-Regular.otf SourceHanSerifSC-Regular.otf SourceHanSerifTC-Regular.otf SourceHanSerif-Medium.otf SourceHanSerifK-Medium.otf SourceHanSerifSC-Medium.otf SourceHanSerifTC-Medium.otf SourceHanSerif-SemiBold.otf SourceHanSerifK-SemiBold.otf SourceHanSerifSC-SemiBold.otf SourceHanSerifTC-SemiBold.otf SourceHanSerif-Bold.otf SourceHanSerifK-Bold.otf SourceHanSerifSC-Bold.otf SourceHanSerifTC-Bold.otf SourceHanSerif-Heavy.otf SourceHanSerifK-Heavy.otf SourceHanSerifSC-Heavy.otf SourceHanSerifTC-Heavy.otf SourceHanCodeJP-ExtraLight.otf SourceHanCodeJP-ExtraLightIt.otf SourceHanCodeJP-Light.otf SourceHanCodeJP-LightIt.otf SourceHanCodeJP-Normal.otf SourceHanCodeJP-NormalIt.otf SourceHanCodeJP-Regular.otf SourceHanCodeJP-RegularIt.otf SourceHanCodeJP-Medium.otf SourceHanCodeJP-MediumIt.otf SourceHanCodeJP-Bold.otf SourceHanCodeJP-BoldIt.otf SourceHanCodeJP-Heavy.otf SourceHanCodeJP-HeavyIt.otf NotoSansCJKjp-Thin.otf NotoSansCJKkr-Thin.otf NotoSansCJKsc-Thin.otf NotoSansCJKtc-Thin.otf NotoSansCJKjp-Light.otf NotoSansCJKkr-Light.otf NotoSansCJKsc-Light.otf NotoSansCJKtc-Light.otf NotoSansCJKjp-DemiLight.otf NotoSansCJKkr-DemiLight.otf NotoSansCJKsc-DemiLight.otf NotoSansCJKtc-DemiLight.otf NotoSansCJKjp-Regular.otf NotoSansCJKkr-Regular.otf NotoSansCJKsc-Regular.otf NotoSansCJKtc-Regular.otf NotoSansMonoCJKjp-Regular.otf NotoSansMonoCJKkr-Regular.otf NotoSansMonoCJKsc-Regular.otf NotoSansMonoCJKtc-Regular.otf NotoSansCJKjp-Medium.otf NotoSansCJKkr-Medium.otf NotoSansCJKsc-Medium.otf NotoSansCJKtc-Medium.otf NotoSansCJKjp-Bold.otf NotoSansCJKkr-Bold.otf NotoSansCJKsc-Bold.otf NotoSansCJKtc-Bold.otf NotoSansMonoCJKjp-Bold.otf NotoSansMonoCJKkr-Bold.otf NotoSansMonoCJKsc-Bold.otf NotoSansMonoCJKtc-Bold.otf NotoSansCJKjp-Black.otf NotoSansCJKkr-Black.otf NotoSansCJKsc-Black.otf NotoSansCJKtc-Black.otf NotoSerifCJKjp-ExtraLight.otf NotoSerifCJKkr-ExtraLight.otf NotoSerifCJKsc-ExtraLight.otf NotoSerifCJKtc-ExtraLight.otf NotoSerifCJKjp-Light.otf NotoSerifCJKkr-Light.otf NotoSerifCJKsc-Light.otf NotoSerifCJKtc-Light.otf NotoSerifCJKjp-Regular.otf NotoSerifCJKkr-Regular.otf NotoSerifCJKsc-Regular.otf NotoSerifCJKtc-Regular.otf NotoSerifCJKjp-Medium.otf NotoSerifCJKkr-Medium.otf NotoSerifCJKsc-Medium.otf NotoSerifCJKtc-Medium.otf NotoSerifCJKjp-SemiBold.otf NotoSerifCJKkr-SemiBold.otf NotoSerifCJKsc-SemiBold.otf NotoSerifCJKtc-SemiBold.otf NotoSerifCJKjp-Bold.otf NotoSerifCJKkr-Bold.otf NotoSerifCJKsc-Bold.otf NotoSerifCJKtc-Bold.otf NotoSerifCJKjp-Black.otf NotoSerifCJKkr-Black.otf NotoSerifCJKsc-Black.otf NotoSerifCJKtc-Black.otf
+
+# EOF
