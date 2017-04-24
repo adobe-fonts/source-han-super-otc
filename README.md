@@ -10,17 +10,23 @@ The [COMMANDS.txt](COMMANDS.txt) file provides the command lines that were used 
 
 ## Super OTC ZIP Files
 
-**Special Note**: The ZIP files for the Super OTCs have been necessarily split into three parts, due to GitHub's 100MB file size limit. Unfortunately, the built-in *Archive Utility* app of macOS does not support split ZIP files, and we therefore recommend that you download and install the [Unarchiver](http://unarchiver.c3.cx/unarchiver) app. To unzip, either drag the Part 3 file (the one with the ".zip" filename extension, and named *SourceHan.ttc.zip* *NotoCJK.ttc.zip*, or *SourceHanNotoCJK.ttc.zip*) onto the *Unarchiver* app, or use Control-Click to open it by specifying that app (after installing the *Unarchiver* app, you may also be able to simply double-click the Part 3 file). Either of these actions will combine the three parts and unzip them. For Windows, select the Part 3 file, then use the "Extract All" context menu to combine the two parts and unzip them.
+**Special Note**: The ZIP files for the Super OTCs have been necessarily split into three parts, due to GitHub's 100MB file size limit. Unfortunately, the built-in *Archive Utility* app of macOS does not support split ZIP files, and we therefore recommend that you download and install the [Unarchiver](http://unarchiver.c3.cx/unarchiver) app. To unzip, either drag the Part 3 file (the one with the ".zip" filename extension, and named *SourceHan.ttc.zip* *NotoCJK.ttc.zip*, or *SourceHanNotoCJK.ttc.zip*) onto the *Unarchiver* app, or use Control-Click to open it by specifying that app (after installing the *Unarchiver* app, you may also be able to simply double-click the Part 3 file). Either of these actions will combine the three parts and unzip them. For Windows, select the Part 3 file, then use the "Extract All" context menu to combine the three parts and unzip them. For Ubuntu and possibly other flavors of Linux, try using "cat" to combine the three parts into a large ZIP file, then use "unzip" to decompress, ignoring any warning messages (use the file sizes and MD5 hashes provided below to confirm).
 
-### Source Han (78 fonts)
+### Source Han
+
+This Super OTC includes 78 fonts, is 307,876,932 bytes, and its MD5 hash is eab487461fb2ab15f91c5427d54fd279.
 
 [Super OTC Part 1](https://github.com/adobe-fonts/source-han-super-otc/raw/master/SourceHan.ttc.z01) (89,128,960 bytes) + [Super OTC Part 2](https://github.com/adobe-fonts/source-han-super-otc/raw/master/SourceHan.ttc.z02) (89,128,960 bytes) + [Super OTC Part 3](https://github.com/adobe-fonts/source-han-super-otc/raw/master/SourceHan.ttc.zip) (73,863,368 bytes)
 
-### Noto CJK (64 fonts)
+### Noto CJK
+
+This Super OTC includes 64 fonts, is 277,453,112 bytes, and its MD5 hash is 406e56bd28ac2c8854909b90b3e0cef2.
 
 [Super OTC Part 1](https://github.com/adobe-fonts/source-han-super-otc/raw/master/NotoCJK.ttc.z01) (89,128,960 bytes) + [Super OTC Part 2](https://github.com/adobe-fonts/source-han-super-otc/raw/master/NotoCJK.ttc.z02) (89,128,960 bytes) + [Super OTC Part 3](https://github.com/adobe-fonts/source-han-super-otc/raw/master/NotoCJK.ttc.zip) (47,713,879 bytes)
 
-### Source Han + Noto CJK (142 fonts)
+### Source Han + Noto CJK
+
+This Super OTC includes 142 fonts, is 308,096,324 bytes, and its MD5 hash is 2120d019397b39a9cd929339e020c7c9.
 
 [Super OTC Part 1](https://github.com/adobe-fonts/source-han-super-otc/raw/master/SourceHanNotoCJK.ttc.z01) (89,128,960 bytes) + [Super OTC Part 2](https://github.com/adobe-fonts/source-han-super-otc/raw/master/SourceHanNotoCJK.ttc.z02) (89,128,960 bytes) + [Super OTC Part 3](https://github.com/adobe-fonts/source-han-super-otc/raw/master/SourceHanNotoCJK.ttc.zip) (73,872,402 bytes)
 
