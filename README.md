@@ -6,7 +6,7 @@ In this project you will find three ready-to-install OpenType/CFF Collections (a
 
 The Super OTCs include various combinations of the 36 [Source Han Sans OTFs](https://github.com/adobe-fonts/source-han-sans/tree/release/OTF), the 28 [Source Han Serif OTFs](https://github.com/adobe-fonts/source-han-serif/tree/release/OTF), the 14 [Source Han Code JP OTFs](https://github.com/adobe-fonts/source-han-code-jp/tree/release/OTF), and the 64 [Noto Sans CJK and Noto Serif CJK OTFs](https://github.com/googlei18n/noto-cjk). The main intent of this particular open source project is to stress-test environments that consume OpenType/CFF Collections, specifically macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, Windows 10 Version 1703 (aka *Creators Update*) or later, flavors of Linux that use *fontconfig* and FreeType Version 2.5.0.1 or greater, and Adobe CS6 apps or later.
 
-The [COMMANDS.txt](COMMANDS.txt) file provides the command lines that were used to pre-process the 142 OpenType/CFF fonts and to combine them into six different OpenType/CFF Collections.
+The [COMMANDS.txt](COMMANDS.txt) file provides the command lines that were used to pre-process the 142 OpenType/CFF fonts and to combine them into three different OpenType/CFF Collections.
 
 ## Super OTC ZIP Files
 
