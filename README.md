@@ -40,6 +40,16 @@ This Ultra OTC includes 142 fonts, is 308,203,516 bytes, and its MD5 hash is c01
 * [Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)
 * [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
 
+### Alternative instruction
+
+For Homebrew and Linuxbrew users,
+
+```shell
+$ brew tap caskroom/fonts # Homebrew (see https://github.com/caskroom/homebrew-fonts)
+$ brew tap asciian/fonts # Linuxbrew (see https://github.com/asciian/homebrew-fonts)
+$ brew cask install font-source-han-noto-cjk
+```
+
 ## Getting Involved
 
 Send suggestions for changes to the Source Han &amp; Noto CJK Mega/Ultra OTCs project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Super%20OTC), for consideration.
