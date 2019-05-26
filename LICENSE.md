@@ -1,3 +1,7 @@
+Copyright 2014-2019 Adobe (http://www.adobe.com/), with Reserved Font
+Name 'Source'. Source is a trademark of Adobe in the United States
+and/or other countries. Noto is a trademark of Google Inc.
+
 This Font Software is licensed under the SIL Open Font License,
 Version 1.1.
 

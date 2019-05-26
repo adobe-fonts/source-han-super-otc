@@ -1,34 +1,28 @@
 # Downloading Source Han &amp; Noto CJK Mega/Ultra OTCs
 
-The Adobe-branded *Source Han Sans*, *Source Han Serif*, and *Source Han Code JP*, along with the Google-branded *Noto Sans CJK* and *Noto Serif CJK*, are open source Pan-CJK and Japanese (*Source Han Code JP*) typefaces whose OpenType/CFF fonts and CID-based sources are covered under the terms of the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL) (also see the [LICENSE](LICENSE.txt) and [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)).
+The Adobe-branded *Source Han Sans*, *Source Han Serif*, and *Source Han Mono*, along with the Google-branded *Noto Sans CJK* and *Noto Serif CJK*, are open source Pan-CJK typefaces whose OpenType/CFF fonts and CID-based sources are covered under the terms of the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL) (also see the [LICENSE](LICENSE.md) and [FAQ](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web)).
 
-In the [latest release](https://github.com/adobe-fonts/source-han-super-otc/releases/latest) of this project you will find three ready-to-install OpenType/CFF Collections (aka Mega and Ultra OTCs) that include 64, 78, or 142 fonts, depending on which of the five typeface families are included.
+In the [Latest Release](https://github.com/adobe-fonts/source-han-super-otc/releases/latest) of this project you will find three ready-to-install OpenType/CFF Collections&mdash;two Mega OTCs and one Ultra OTC&mdash;that include 73, 143, or 216 fonts, depending on which of the five typeface families are included.
 
-The Mega and Ultra OTCs include various combinations of the 36 [Source Han Sans OTFs](https://github.com/adobe-fonts/source-han-sans/tree/release/OTF), the 28 [Source Han Serif OTFs](https://github.com/adobe-fonts/source-han-serif/tree/release/OTF), the 14 [Source Han Code JP OTFs](https://github.com/adobe-fonts/source-han-code-jp/tree/release/OTF), and the 64 [Noto Sans CJK and Noto Serif CJK OTFs](https://github.com/googlei18n/noto-cjk). The main intent of this particular open source project is to stress-test environments that consume OpenType/CFF Collections, specifically macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, Windows 10 Version 1703 (aka *Creators Update*) or later, flavors of Linux that use *fontconfig* and FreeType Version 2.5.0.1 or greater, and Adobe CS6 apps or later.
+The Mega and Ultra OTCs include various combinations of the 45-font [Source Han Sans Super OTC](https://github.com/adobe-fonts/source-han-sans/releases/latest/), the 28-font [Source Han Serif Super OTC](https://github.com/adobe-fonts/source-han-serif/releases/latest/), the 70-font [Source Han Mono Super OTC](https://github.com/adobe-fonts/source-han-mono/releases/latest/), and the 45- and 28-font [Noto Sans CJK and Noto Serif CJK Super OTCs](https://github.com/googlefonts/noto-cjk/). The main intent of this particular open source project is to stress-test environments that consume OpenType/CFF Collections, specifically macOS (OS X) Version 10.8 (aka *Mountain Lion*) or later, iOS 7 or later, Windows 10 Version 1703 (aka *Creators Update*) or later, flavors of Linux that use *fontconfig* and FreeType Version 2.5.0.1 or greater, and Adobe CS6 apps or later.
 
-The [COMMANDS.txt](COMMANDS.txt) file provides the command lines that were used to pre-process the 142 OpenType/CFF fonts and to combine them into three different OpenType/CFF Collections.
+The [COMMANDS.txt](COMMANDS.txt) file provides the command lines that were used to build these Mega OTCs and Ultra OTC. Only the [AFDKO](https://github.com/adobe-type-tools/afdko/) *sfntedit* and *otf2otc* tools are required.
 
 ## Mega OTCs
 
 ### Source Han&mdash;SourceHan.ttc
 
-This Mega OTC includes 78 fonts, is 307,920,516 bytes, and its MD5 hash is 46583acb0bdb75bb0ec83f3e0ec674ed.
+This Mega OTC includes all 143 fonts from *Source Han Sans*, *Source Han Serif*, and *Source Han Mono*, is 407,874,352 bytes, and its MD5 hash is 335a7d574116f97b4efd13bcf9271e00.
 
 ### Noto CJK&mdash;NotoCJK.ttc
 
-This Mega OTC includes 64 fonts, is 277,560,080 bytes, and its MD5 hash is c3f1d474597f5345760748f34537eeb5.
+This Mega OTC includes all 73 fonts from *Noto Sans CJK* and *Noto Serif CJK*, is 285,763,672 bytes, and its MD5 hash is 5fb3f42574c27390bc60347858f4bf8e.
 
 ## Ultra OTC
 
 ### Source Han + Noto CJK&mdash;SourceHanNotoCJK.ttc
 
-This Ultra OTC includes 142 fonts, is 308,140,132 bytes, and its MD5 hash is 813dc6238f87606af58344724dfea695.
-
-## Font installation instructions
-
-* [macOS](https://support.apple.com/en-us/HT201749)
-* [Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)
-* [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
+The Ultra OTC includes all 216 fonts from the *Source Han* and *Noto CJK* families, is 408,078,664 bytes, and its MD5 hash is 20ab97d945dcc9027d65b95e4213717f.
 
 ## Getting Involved
 
