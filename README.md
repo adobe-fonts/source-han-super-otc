@@ -12,7 +12,7 @@ The [COMMANDS.txt](COMMANDS.txt) file provides the command lines that were used 
 
 ### Source Han&mdash;SourceHan.ttc
 
-This Mega OTC includes all 143 fonts from *Source Han Sans*, *Source Han Serif*, and *Source Han Mono*, is 407,877,304 bytes, and its MD5 hash is 9d2ffe0ec181ab7611ac62e44882ac99.
+This Mega OTC includes all 143 fonts from *Source Han Sans*, *Source Han Serif*, and *Source Han Mono*, is 407,879,580 bytes, and its MD5 hash is 8f12d2fff6492b917496a3718e60cd5b.
 
 ### Noto CJK&mdash;NotoCJK.ttc
 
@@ -22,7 +22,7 @@ This Mega OTC includes all 73 fonts from *Noto Sans CJK* and *Noto Serif CJK*, i
 
 ### Source Han + Noto CJK&mdash;SourceHanNotoCJK.ttc
 
-The Ultra OTC includes all 216 fonts from the *Source Han* and *Noto CJK* families, is 408,081,616 bytes, and its MD5 hash is d6596df3a2f4525353af4881d4a25c5a.
+The Ultra OTC includes all 216 fonts from the *Source Han* and *Noto CJK* families, is 408,083,892 bytes, and its MD5 hash is d50619f15a3c4130bc26380bfe8bca52.
 
 ## Getting Involved
 
