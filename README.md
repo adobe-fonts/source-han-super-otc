@@ -26,7 +26,7 @@ The Ultra OTC includes all 216 fonts from the *Source Han* and *Noto CJK* famili
 
 ## Getting Involved
 
-Send suggestions for changes to the Source Han &amp; Noto CJK Mega/Ultra OTCs project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Super%20OTC), for consideration.
+For any suggestions for changes, please [create a new issue](https://github.com/adobe-fonts/source-han-super-otc/issues) for consideration.
 
 ## Further information
 
